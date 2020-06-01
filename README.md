@@ -8,3 +8,6 @@ Spurred on by personal experience of a true lack of beautiful UI apps in special
 ## Where is it in development?
 Currently Loremasterer is in very early stages of development and is not yet functional, but watch this space!
 
+## Early Screenshots
+![alt text](https://github.com/JBaguley/loremasterer/blob/master/readme_images/create_sc_v0.1.0.png "Initial Screenshot Loader")
+
