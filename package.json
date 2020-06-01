@@ -69,20 +69,28 @@
     "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
     "@electron-forge/maker-zip": "^6.0.0-beta.51",
     "@electron-forge/plugin-webpack": "^6.0.0-beta.51",
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "@marshallofsound/webpack-asset-relocator-loader": "^0.5.0",
+    "@types/jquery": "^3.3.38",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "css-loader": "^3.5.3",
     "electron": "9.0.0",
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.0.0",
     "fork-ts-checker-webpack-plugin": "^3.1.1",
+    "html-loader": "^1.1.0",
+    "jquery": "^3.5.1",
     "node-loader": "^0.6.0",
+    "node-sass": "^4.14.1",
     "style-loader": "^0.23.1",
     "ts-loader": "^6.2.2",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.3",
+    "url-loader": "^4.1.0"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "sass-loader": "^8.0.2"
   }
 }

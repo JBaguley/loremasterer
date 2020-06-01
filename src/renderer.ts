@@ -26,6 +26,36 @@
  * ```
  */
 
-import './index.css';
+import './assets/css/index.scss';
+import img from './assets/images/LM.png';
+
+const { ipcRenderer } = require('electron')
+
+
+function init() { 
+    document.getElementById("min-btn").addEventListener("click", function (e) {
+        ipcRenderer.send('focused-window', 'minimize')
+    });
+
+    document.getElementById("max-btn").addEventListener("click", function (e) {
+        ipcRenderer.send('focused-window', 'maximize')
+    });
+
+    document.getElementById("close-btn").addEventListener("click", function (e) {
+        ipcRenderer.send('focused-window', 'close')
+    }); 
+
+    document.getElementById("option-quit").addEventListener("click", function (e) {
+        ipcRenderer.send('focused-window', 'close')
+    }); 
+
+    (<HTMLImageElement>document.querySelector("#index-logo")).src = img;
+}; 
+
+document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+         init(); 
+    }
+};
 
 console.log('👋 This message is being logged by "renderer.js", included via webpack');

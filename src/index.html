@@ -2,11 +2,29 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Loremasterer</title>
 
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <div id="title-bar">
+      <div id="title-bar-btns">
+        
+           <a id="min-btn" class="menu-button"><i class="fas fa-window-minimize"></i></a>
+           <a id="max-btn" class="menu-button"><i class="fas fa-window-maximize"></i></a>
+           <a id="close-btn" class="menu-button"><i class="fas fa-window-close"></i></a>
+      </div>
+    </div>
+    <div id="logo-banner">
+      <img id="index-logo">
+    </div>
+    
+    <h1 id="index-title">Loremasterer</h1>
+    <p id="index-tagline"><em>Conquer your lore</em></p>
+    <div class="buffer-10"></div>
+    <div class="options-box">
+      <div class="option">Create</div>
+      <div class="option">Load</div>
+      <div class="option" id="option-quit">Quit</div>
+    </div>
   </body>
 </html>
